@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="Author" content="Dalziel Wilson">
+		<link rel='icon' href='images/logo_OSC.png' type='image/png' />
+		<link rel='stylesheet' href='default.css'>
+		<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap" rel="stylesheet">	
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">	
+		<title>Quantum Optomechanics Lab</title>
+	</head>
+
+	<body style="text-align: center; width: 720px; margin: 30px auto 50px; font-family: Barlow Condensed">
+	
+		<header style="text-align: center;">
+			<span style="display: inline-block;
+				vertical-align: middle;
+				line-height: normal;">
+					<img src="https://kdus1060.com/wp-content/uploads/2017/01/University-of-Arizona-football.png" width = 110 alt="oops" />
+			</span>
+			<span style="display: inline-block;	
+			vertical-align: middle;	
+			line-height: normal; 
+			font-size:300%; 
+			color:rgb(33, 20, 90);
+			margin-left: "0.2em">
+			Quantum Optomechanics Lab
+			<!--Wilson Lab - University of Arizona-->
+			</span>
+		</header>
+		<br/>
+	
+		<div id="cssmenu">
+			<!--enter your hyperlinks here-->
+			<ul style="font-family: Barlow Condensed">
+				<li><a href="index.html">Home</a></li>
+				<!--li class="has-sub"><a href="#" onclick="return false;">Research</a-->
+				<li><a href="research.html">Research</a></li>
+				<li><a href="members.html">Members</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="photos.html">Photos</a></li>
+				<li><a href="teaching.html">Teaching</a></li>
+			</ul>
+			
+	</div>
+		<br/>
+		<div>
+			<h1>Welcome</h1>
+			<!--<h1>Quantum Optomechanics Group</h1>-->
+			<!--h4><i>College of Optical Sciences, University of Arizona</i><br/-->
+		</div>
+		<div style="text-align: justify; margin: auto auto -10px; font-family: 'Open Sans'; font-size:100%">
+			Welcome to the Quantum Optomechanics Lab at the University of Arizona. We couple nano-mechanical resonators and optical cavities to investigate various aspects of quantum  physics at the macroscale. Questions we explore include: Can a solid state object be cooled to its ground state using radiation pressure?  What are the signatures of the uncertainty principle in an interferometric measurement?  Can a light field be squeezed by reflecting it from a mirror? Answers to these questions yield insights into the possibility of a new generation of optomechanical quantum technologies, such as squeezing-enhanced force sensors.  Along similar lines, we are interested in using  optomechanical systems as precision measurement tools, accessing fundamental physics such as non-Newtonian gravity and ultralight dark matter.
+		</div>
+		<br/><br/>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<!--div class="numbertext">1 / 3</div-->
+	  			<img src="images/img1.JPG" height="320">
+	  			<!--div class="text">Caption Text</div-->
+			</div>
+
+			<div class="mySlides fade">
+				<img src="images/img7.jpg" height="320">
+			</div>
+  			
+			<div class="mySlides fade">
+				<img src="images/img2.jpg" height="320">
+			</div>
+  
+			<div class="mySlides fade">
+	  			<img src="images/img3.jpg" height="320">
+			</div>
+
+			<div class="mySlides fade">
+				<img src="images/img5.jpg" height="320">
+		 	</div>
+
+			<div class="mySlides fade">
+				<img src="images/img4.jpg" height="320">
+			</div>
+
+			<div class="mySlides fade">
+				<img src="images/img8.jpg" height="320">
+			</div>
+
+			<div class="mySlides fade">
+				<img src="images/img10.jpg" height="320">
+			</div>
+			
+		</div>
+   		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+			<span class="dot" onclick="currentSlide(6)"></span>
+			<span class="dot" onclick="currentSlide(7)"></span>
+			<span class="dot" onclick="currentSlide(8)"></span>
+		</div>
+
+		<div style="text-align: center">
+			<h1>News and events</h1>
+			<ul style="text-align: left; font-family: 'Open Sans'; font-size:100%">
+				<li><b>August 24, 2020 -- </b>Aman Agrawal and Charles Condos officially begin the Ph.D. program at the College of Optical Sciences.</li>
+				<li><b>August 11, 2020 -- </b>NSF ECCS-1945832 "QOMA" (Quantum-Enhanced Optomechanical Accelerometers) is awarded.  Many thanks to Co-PI Felipe Guzman!
+				<li><b>August 9, 2020 -- </b>"Towards cavity-free ground state cooling of an acoustic-frequency silicon nitride membrane" is chosen for an OSA <i>Spotlight on Optics</i>.  Thanks to Nils Engelson for the nice spotlight article. </li>
+				<li><b>July 22, 2020 -- </b>TOM (trampoline-on-a-membrane) is born. Aman: "My heart was pounding during the drying step but somehow trampoline survived the violent evaporation of methanol." </li>
+				<li><b>July 9, 2020 -- </b>Arxiv submission "Searching for vector dark matter with an optomechanical accelerometer." Kudos to Jack and Mitul for their hard work. (Thanks to Swati for her patience.) </li>
+				<li><b>May 18, 2020 -- </b>Charles Condos joins the group.  Due to COVID restrictions, he gets his own lab.</li>
+			</ul>
+		</div>
+		
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+			
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+			
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				  dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+			</script>
+	</br>
+	<div style="text-align: center; font-family: 'Open Sans'; font-size:100%">
+		<p>
+			Mailing address:<br>
+			&nbsp;&nbsp;College of Optical Sciences, University of Arizona<br>
+			&nbsp;&nbsp;1630 E. University Blvd.<br>
+			&nbsp;&nbsp;Tucson, AZ 85721, USA<br><br>
+			&nbsp;&nbsp;Phone: 520-621-2584  (Office)
+		</p>
+	</div>
+	
+	</div>
+	
+	<div>
+		<a href="https://www.arizona.edu/" target="_blank"><IMG src="images/logo_UA.png" height="100" border="0"></a>
+		<a href="https://www.optics.arizona.edu//" target="_blank"><IMG src="images/logo_OSC.png" height="100" border="0" ></a>
+	</div>
+	
+	</div>
+	<div style="text-align: center; font-family: 'Open Sans'; font-size:100%">
+		<div>
+		Last modified: Septemer 6, 2020	</div>
+	</div>
+
+	</body>
+
+</html>
