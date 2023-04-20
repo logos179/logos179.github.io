@@ -240,7 +240,7 @@
   .grid-2 {
     justify-content: center;
     display: grid;
-    grid-template-columns: 160px 160px 160px 160px 160px;
+    grid-template-columns: 160px 160px 160px;
     grid-template-rows: auto auto auto;
     grid-gap: 10px;
   }
@@ -248,7 +248,7 @@
   .grid-3 {
     justify-content: center;
     display: grid;
-    grid-template-columns: 160px 160px 160px 160px 160px;
+    grid-template-columns: 160px 160px 160px;
     grid-template-rows: auto auto auto;
     grid-gap: 10px;
   }
